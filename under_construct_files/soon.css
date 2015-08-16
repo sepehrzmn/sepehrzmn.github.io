@@ -1,0 +1,88 @@
+html,* {-webkit-font-smoothing: antialiased;-webkit-overflow-scrolling: touch;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+*{text-shadow:none!important;}
+
+body{
+background:#DFE4E7;
+direction:rtl;
+line-height:1.2;
+padding:0;
+margin:0;
+font-family:yekan;
+}
+
+
+.mainpics {
+    margin: 0 auto;
+    width: 800px;
+	top:70px;
+	height:500px;
+	position:relative;
+}
+
+.mainpic {
+    position: absolute;
+	margin:0 auto;
+}
+
+.mainpic.imac {
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.mainpic.pens {
+    left: -37px;
+    top: 127px;
+    width: 130px;
+}
+
+.mainpic.pen {
+    right: 98px;
+    top: 222px;
+    width: 103px;
+}
+
+.mainpic.pen2 {
+    left: 108px;
+    top: 243px;
+    width: 95px;
+}
+
+.mainpic.mouse {
+    bottom: 0;
+    right: 288px;
+    width: 68px;
+}
+
+.mainpic.keyboard {
+    bottom: -8px;
+    left: -249px;
+    right: 0;
+}
+
+.mainpic.hands {
+    bottom: 14px;
+    right: 26px;
+    width: 137px;
+}
+
+.mainpic.camera {
+    bottom: 32px;
+    left: -12px;
+    width: 137px;
+}
+
+.mainpics h1 {
+    color: #353535;
+    left: 0;
+    position: absolute;
+    right: 210px;
+    top: 224px;
+    z-index: 9988;
+}
+
+.mainpics p {
+    position: absolute;
+    right: 212px;
+    top: 333px;
+}

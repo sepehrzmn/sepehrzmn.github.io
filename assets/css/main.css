@@ -2079,7 +2079,7 @@
 				padding: 0.35em 0 0 3.5em;
 				position: relative;
 				vertical-align: top;
-				width: 48%;
+				width: 100%;
 			}
 
 				ul.feature-icons li:before {
@@ -2757,7 +2757,7 @@
 
 		/* One */
 
-			#one:before {
+			#about:before {
 				height: 10em;
 			}
 
@@ -2955,7 +2955,7 @@
 
 		/* One */
 
-			#one:before {
+			#about:before {
 				height: 7em;
 			}
 
