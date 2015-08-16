@@ -2105,6 +2105,51 @@
 					width: 2.5em;
 				}
 
+/* FAQs */
+
+		ul.faq {
+			list-style: none;
+			padding-left: 0;
+			direction: rtl;
+		}
+
+			ul.faq li {
+				text-decoration: none;
+				display: inline-block;
+				padding: 0.35em 0 0 3.5em;
+				position: relative;
+				vertical-align: top;
+				text-align: right;
+				width: 100%;
+				direction: rtl;
+			}
+
+				ul.faq li:before {
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+					direction: rtl;
+				}
+
+				ul.faq li:before {
+					background: #31D6FF;
+					border-radius: 100%;
+					color: #ffffff;
+					display: inline-block;
+					height: 1.5em;
+					left: 0;
+					line-height: 1.5em;
+					text-align: center;
+					top: 0;
+					width: 1.5em;
+					direction: rtl;
+				}
+
+/* end of FAQs */
+
 		ul.icons {
 			cursor: default;
 			list-style: none;
